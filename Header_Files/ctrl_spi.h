@@ -1,3 +1,6 @@
+/*
+ File for defining SPI functions
+ */
 
 // Guard condition so that contents of file are not included more than once.  
 #ifndef CTRL_SPI

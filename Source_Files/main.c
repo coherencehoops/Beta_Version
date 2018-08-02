@@ -1,8 +1,9 @@
 #include <p24Fxxxx.h>
 #include <xc.h>
-
+#include "conf_master.h"
 #include "ctrl_spi.h"
 #include "colr_color_run.h"
+#include "colr_definitions.h"
 
 #pragma config POSCMOD = NONE           // Primary Oscillator Select (Primary oscillator disabled)
 #pragma config I2C1SEL = PRI            // I2C1 Pin Location Select (Use default SCL1/SDA1 pins)
